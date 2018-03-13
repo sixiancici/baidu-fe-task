@@ -1,0 +1,164 @@
+/*盒子1---样式---------------------------*/
+
+.div1 {
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 20px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.div1-1 {
+    margin: 25px;
+}
+
+.div1 h3,
+.div3 h3 {
+    color: #666;
+}
+
+.p0 {
+    font-size: 12px;
+    color: #666;
+}
+
+.p1 {
+    text-indent: 2em;
+}
+
+.div1 ul {
+    list-style: none;
+}
+
+
+/*盒子2---样式-------------------------*/
+
+.div2,
+.div3,
+.div4 {
+    border: 1px solid #ccc;
+    background: #fff;
+    margin: 20px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.div2-1,
+.div3-1,
+.div4-1 {
+    margin: 25px;
+}
+
+.img1 {
+    border: 1px solid #000;
+    width: 100px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.img1 img {
+    width: 100%;
+}
+
+.img1 p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/*盒子3---表格样式----(问题：表3的宽度和1/2不一样？？？？？？？)---------------------*/
+
+.div3-1 li {
+    font-size: 20px;
+    font-weight: bold;
+    /*字体加粗*/
+    line-height: 1.5em;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0px;
+}
+
+table thead th:nth-child(3) {
+    width: 100px;
+}
+
+
+/*----1、单元格加边框；2、内容靠左；3、内容与边界加距离----*/
+
+.div3-1 th,
+td {
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+
+/*---------1、单元格间距为0设置；2、整个表宽度100%---------*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 11px
+}
+
+.div3-1 thead {
+    background-color: #333;
+}
+
+.div3-1 th {
+    color: #fff;
+}
+
+.div3-1-1 td {
+    background-color: #ccc;
+    font-weight: bold;
+}
+
+tbody span {
+    text-decoration: underline;
+    color: #609;
+}
+
+
+/*盒子4---邮箱密码样式-------------------------*/
+
+h2 {
+    border-left: 3px solid #ccc;
+    text-indent: 0.5em;
+}
+
+.label-wrapper,
+.input-wrapper {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.label-wrapper {
+    width: 500px;
+    text-align: right;
+}
+
+.font {
+    color: #ccc;
+    font-size: 15px;
+}
+
+.vertical-align-top {
+    vertical-align: top;
+}
+
+
+/*盒子4---button样式-------------------------*/
+
+button {
+    display: block;
+    width: 100%;
+    height: 2.5em;
+    background-color: #33f;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 15px;
+    /*---button四角弧度----*/
+}
