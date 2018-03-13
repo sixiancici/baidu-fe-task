@@ -1,0 +1,96 @@
+/*-----clear-------*/
+
+.news {
+    border: 1px solid #333;
+    background-color: #eee;
+}
+
+img {
+    float: left;
+}
+
+p {
+    float: right;
+    font-size: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*------overflow--------*/
+
+.news_1 {
+    border: 1px solid #333;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+img {
+    float: left;
+}
+
+p {
+    float: right;
+    font-size: 50px;
+}
+
+
+/*-------给浮动元素的父容器添加浮动，不推荐用---------*/
+
+
+/*-------使用邻接元素处理----
+  ---什么都不做，给浮动元素后面的元素添加clear属性----
+  -----注意这里的div.content有内容------*/
+
+.news_3 {
+    border: 1px solid #333;
+    background-color: #eee;
+}
+
+img {
+    float: left;
+}
+
+p {
+    float: right;
+    font-size: 50px;
+}
+
+.content {
+    clear: both;
+    font-size: 50px;
+}
+
+
+/*------使用CSS的:after伪元素----
+  ------通过CSS伪元素在容器的内部元素最后添加了一个看不见的空格"020"或点"."，-----
+  -----并且赋予clear属性来清除浮动。需要注意的是为了IE6和IE7浏览器，-----
+  -----要给clearfix这个class添加一条zoom:1;触发haslayout-----*/
+
+.news_4 {
+    border: 1px solid #333;
+    background-color: #eee;
+}
+
+img {
+    float: left;
+}
+
+p {
+    float: right;
+    font-size: 50px;
+}
+
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    content: "020";
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
