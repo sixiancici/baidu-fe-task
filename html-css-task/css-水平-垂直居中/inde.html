@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" herf="./index.css"/>
+    <title>JS Bin</title>
+</head>
+
+<body>
+
+    <!-- 行内元素   -->
+    <p class="title1">行内元素</p>
+
+    <div class="container">
+        <nav class="horizontal1">
+            <a href="#">text-align1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </nav>
+    </div>
+
+
+    <div class="container flex_1">
+        <nav class="horizontal2">
+            <a href="#">flex1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </nav>
+    </div>
+
+    <!-- 行内,单行，父元素高度已知   -->
+    <div class="container">
+        <nav class="vertical1">
+            <a href="#">line-height1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </nav>
+    </div>
+
+    <!-- 行内,多行，父元素高度已知   -->
+    <div class="container flex_2">
+        <nav class="vertical2">
+            <a href="#">flex
+                <br/>1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </nav>
+    </div>
+
+    <div class="container before">
+        <nav class="vertical3">
+            <a href="#">before
+                <br/>1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </nav>
+    </div>
+
+    <!-- 块级元素   -->
+
+    <p class="title1">块级元素</p>
+
+    <!--   单个，块状元素   -->
+    <div class="container">
+        <div class="single">
+            单个块状元素，margin：auto
+        </div>
+    </div>
+
+    <!--   多个，块状元素   -->
+    <div class="container flex_3">
+        <div class="multi">
+            多个块状元素，flex,1
+        </div>
+        <div class="multi">
+            2
+        </div>
+        <div class="multi">
+            3
+        </div>
+    </div>
+
+    <div class="container transform">
+        <div class="vertical_4">
+            垂直居中，transform
+        </div>
+    </div>
+</body>
+
+</html>
