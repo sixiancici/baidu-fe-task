@@ -1,0 +1,52 @@
+.container{
+    padding:20px 170px 20px 240px;
+    overflow: auto;
+    
+    background-color:#eee;
+    border:1px solid #999;
+    height:400px;
+  }
+  
+  .wrapper-2-1{
+    float:left;
+    position:relative;
+    
+    border:1px solid #999;
+    background-color:#fff;
+    
+  }
+  .middle{
+    width:100%;
+    font-size:12px;
+    height:300px;
+   
+  }
+  .left{
+    left:-223px;
+    margin-left:-100%;
+    width:200px;
+    height:110px;
+    
+  }
+  
+  .right{
+    right:-145px;
+    width:120px;
+    height:100%;
+    margin-left:-124px;
+    
+  }
+  
+  .logo
+  {
+    border:1px solid #999;
+    width:80px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    float:left;
+    background-color:#eee;
+  }
+  .logo p{
+    text-align:center;
+  }  
